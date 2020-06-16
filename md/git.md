@@ -9,3 +9,4 @@
 * git log : 확정본 리스트 보기
 * git reset : 버전 되돌리기
 * git tag : 버전에 tag 추가 또는 삭제하기
+* [README](../Readme.md)
