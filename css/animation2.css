@@ -1,0 +1,31 @@
+@keyframes transform-none{
+  100%{
+    opacity: 1;
+    transform: none; /* transform: transform: none; translateY가 없어짐*/
+  }
+}
+
+
+.app-header {
+	/* 0% */
+	opacity: 0;
+	transform: translateY(-4rem);
+	/* 100% */
+  animation: transform-none 0.35s 0.4s ease-out forwards;
+  animation-name: transform-none;
+  animation-duration: 0.4s;
+  animation-fill-mode: forwards; /*내려오고 끝나있음*/}
+
+  .brand {
+    opacity: 0;
+    transform: translateX(-4rem);
+    animation: transform-none 0.3s 0.7s cubic-bezier(0, 0, 0.23, 1.43) forwards;
+  }
+  
+  button[title="메뉴 열기"] {
+    opacity: 0;
+    transform: translateX(4rem);
+    animation: transform-none 0.45s 0.65s cubic-bezier(0, 0, 0, 1) forwards;
+  }
+
+  
