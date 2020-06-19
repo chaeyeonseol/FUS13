@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="ko-KR">
-
+q
   <head>
     <meta charset="UTF-8" />
     <title>모바일 웹 UI</title>
@@ -59,7 +59,7 @@
                 aria-label="메뉴 닫기">
           <span
                 class="close"
-                aria-hidden="true">×</span>
+                aria-hidden="true">×</span> </button> 
         </button>
       </nav>
     </div>
@@ -67,7 +67,7 @@
     <div
          class="app-main"
          rloe="main">
-      <h2 class="a11y-hidden">이디야 음료</h2>
+      <h2 class="a11y-hidden">이디야 음료</h2> <!--a11y-hidden은 css에서 안보이게 함-->
       <p hidden> 음료의 배경 색상이 하늘색인 경우 여름 한정 메뉴 입니다.</p>
       <ul class="ediya-menu reset-list">
         <li class="ediya-menu__item">
@@ -75,8 +75,8 @@
              href="#"
              role="button"
              aria-haspopup="dialog"
-             aria-pressed="false">
-            <figure>
+             aria-pressed="false"> <!-- button 안에는 figure 들어오면 에러남-->
+            <figure><!--캡션을 가질만한 컨텐츠를 담는 그룹(이미지, 동영상, 표-->
               <img
                    src="./images/iced-cherry-blossoms-latte.png"
                    alt
