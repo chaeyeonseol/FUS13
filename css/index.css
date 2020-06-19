@@ -1,3 +1,22 @@
 body{
-  background-color: yellow;
+  background-color:#fff;
+  color:#181818;
+}
+.is-open-menu{
+  border:0;
+  background:transparent;
+}
+.is-open-menu .ir{
+  display: block;
+  width: 26px;
+  height: 22px;
+  /*background-color:#ff0;*/
+  background-image: url("./../images/navigation-button.gif");
+  background-repeat: no-repeat;
+  padding: 10px;
+  background-position: 50% 50%;
+  cursor: pointer;
+}
+.is-open-menu .ir:hover{
+  background-color: #999;
 }
